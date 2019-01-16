@@ -1,0 +1,99 @@
+
+.software-title_container {
+  @extend %title_container;
+  margin-top: 3.42vw;
+  margin-bottom: 2.3vw;
+  width:60%;
+}
+@media (min-width: 800px) {
+ .software-title_container {
+  width:100%;
+  } 
+}
+.left-page-item_software-title{
+  @extend %page-item-title;
+  margin-left: 1.53vw;
+}
+@media (min-width: 800px) {
+ .left-page-item_software-title {
+  font-size: 3.3vw;
+  } 
+}
+.software-title_line{
+  @extend %title_line;
+}
+@media (min-width: 800px) {
+ .software-title_line {
+  height: 0.4vw;
+  } 
+}
+.software-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 99%;
+  margin-left: 1%;
+}
+.software-container_item {
+  width: 44%;
+}
+.rigth-page-item_software-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items:flex-start;
+  list-style: none;
+  width: 100%;
+  @extend %mp0;
+}
+.rigth-page-item_software-list-item {
+  width: 100%;
+}
+.rigth-page-item_software-list-item h2 {
+  @extend %mp0;
+  margin-bottom: 0.89vw;
+  @extend %fr;
+  font-size: 4vw;
+}
+@media (min-width: 800px) {
+ .rigth-page-item_software-list-item h2 {
+  font-size: 2.05vw;
+  } 
+}
+.bar {
+  width: 100%;
+  height: 3vw;
+  background-color:$gray;
+  @extend %mp0;
+  margin-bottom: 1.77vw;
+  div {
+    background-color:$blue;
+    height: 3vw;
+  }
+}
+@media (min-width: 800px) {
+ .bar {
+  height: 1.81vw;
+    div {
+      height: 1.81vw;
+    }
+  } 
+}
+.bar-photoshop div{
+  width: 92%;
+}
+.bar-illustrator div{
+  width: 71%;
+}
+.bar-indesign div{
+  width: 57%;
+}
+.bar-dreamweaver div{
+  width: 83%;
+}
+.bar-after-effects div{
+  width: 61%;
+}
+.bar-html-css div{
+  width: 91%;
+}

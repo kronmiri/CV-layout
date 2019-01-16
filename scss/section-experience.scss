@@ -1,0 +1,97 @@
+
+.experience-title_container {
+  @extend %title_container;
+  margin-top: 3.5vw;
+  margin-bottom: 3.4vw;
+  width:60%;
+}
+@media (min-width: 800px) {
+ .experience-title_container {
+  width:100%;
+  } 
+}
+.left-page-item_experience-title{
+  @extend %page-item-title;
+  margin-left: 1.33vw;
+}
+@media (min-width: 800px) {
+ .left-page-item_experience-title {
+  font-size: 3.3vw;
+  } 
+}
+.experience-title_line{
+  @extend %title_line;
+}
+@media (min-width: 800px) {
+ .experience-title_line {
+  height: 0.4vw;
+  } 
+}
+.rigth-page-item_experience-list {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  @extend %mp0;
+  list-style: none;
+}
+.experience-title-container {
+  display: flex;
+  align-items:center;
+  h2 {
+    @extend %fb;
+    @extend %mp0;
+    font-size: 4vw;
+    color:$blue;
+    span {
+      @extend %fr;
+      color:#000;
+      margin-left: 0.6vw;
+    }
+  }  
+  div {
+    width:3.5vw;
+    height: 3.5vw;
+    background-color:#000;
+    margin-left:1.8%;
+    margin-right: 2.5%;
+    border-radius:50%;
+  } 
+}
+@media (min-width: 800px) {
+ .experience-title-container {
+    h2 {
+      font-size: 2.05vw;
+    }
+    div {
+      width:1.61vw;
+      height: 1.61vw;
+    }
+  } 
+}
+.rigth-page-item_experience-list-item {
+  margin-bottom:0.89vw;
+  h3 {
+    @extend %fr;
+    @extend %mp0;
+    margin-left: 8%;
+    margin-top: 0.2vw;
+    margin-bottom: 0.4vw;
+    font-size: 4vw;
+  }
+  p {
+    @extend %fr;
+    @extend %mp0;
+    margin-left: 8.5%;
+    font-size: 3vw;
+  }
+}
+@media (min-width: 800px) {
+ .rigth-page-item_experience-list-item {
+    h3 {
+    font-size: 2.05vw;
+    }
+    p {
+    font-size: 1.25vw;
+    }
+  } 
+}

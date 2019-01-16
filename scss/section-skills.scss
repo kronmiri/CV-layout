@@ -1,0 +1,76 @@
+
+.skills-title_container {
+  @extend %title_container;
+  margin-top:3.63vw;
+  width:60%;
+}
+@media (min-width: 800px) {
+ .skills-title_container {
+  width:100%;
+  } 
+}
+.left-page-item_skills-title {
+  @extend %page-item-title;
+}
+@media (min-width: 800px) {
+ .left-page-item_skills-title {
+  font-size: 3.3vw;
+  } 
+}
+.skills-title_line {
+  @extend %title_line;
+}
+@media (min-width: 800px) {
+ .skills-title_line {
+  height: 0.4vw;
+  } 
+}
+.left-page-item_skills-list {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+  list-style: none;
+  @extend %mp0;
+  li {
+    @extend %mp0;
+    h2 {
+      font-size: 4vw;
+      @extend %fr;
+      @extend %mp0;
+      margin-bottom: 0.4vw;
+      margin-top:1.9vw;
+    }
+  }
+}
+@media (min-width: 800px) {
+ .left-page-item_skills-list li h2 {
+  font-size: 2.05vw;
+  } 
+}
+.balls {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width: 78%;
+  div {
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius:50%;
+    background-color: $blue;
+    margin-right: 3.1%;
+  }
+}
+@media (min-width: 800px) {
+ .balls div {
+  width: 1.41vw;
+  height: 1.41vw;
+  } 
+}
+.balls div:nth-child(12) {
+  margin:0;
+}
+.balls .balls_gray {
+  background-color: $gray;
+}

@@ -1,0 +1,42 @@
+$blue:#3d6cb0;
+$gray:#e6e6e6;
+%mp0 {
+  margin:0;
+  padding:0;
+}
+%fr {
+  font-family: "MyriadPro Regular"
+}
+%fb {
+  font-family: "MyriadPro Bold"
+}
+%fl {
+  font-family: "MyriadPro LightSemiExt";
+  font-weight: 300;
+}
+%title_container {
+  width:60%;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing:border-box;
+  align-items:center;
+  @extend %mp0;
+  margin: 0 auto;
+  margin-top:6.13vw;
+}
+%title_line {
+  height: 0.6vw;
+  width:100%;
+  background-color: $blue;
+  margin-bottom:0.2vw;
+}
+%page-item-title {
+  font-size: 5vw;
+  text-transform: uppercase;
+  color: $blue;
+  @extend %fb;
+  @extend %mp0;
+  margin-left:0.8vw;
+  margin-right: 0.65vw;
+}
+
